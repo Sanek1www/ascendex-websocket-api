@@ -17,7 +17,7 @@ func TestParseBboChannel(t *testing.T) {
 			exp:  "bbo:BTC/USDT",
 		},
 		{
-			name: "case1",
+			name: "case2",
 			data: "ETH_DOGE",
 			exp:  "bbo:ETH/DOGE",
 		},
